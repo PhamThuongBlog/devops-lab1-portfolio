@@ -1,0 +1,26 @@
+[
+  {
+    "url": "http://localhost:37855/devops-info.html",
+    "isRepresentativeRun": true,
+    "htmlPath": "/home/runner/work/devops-lab1-portfolio/devops-lab1-portfolio/.lighthouseci/localhost-devops_info_html-2026_09_10_09_43_54.report.html",
+    "jsonPath": "/home/runner/work/devops-lab1-portfolio/devops-lab1-portfolio/.lighthouseci/localhost-devops_info_html-2026_09_10_09_43_54.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 0.87,
+      "best-practices": 0.96,
+      "seo": 0.9
+    }
+  },
+  {
+    "url": "http://localhost:37855/index.html",
+    "isRepresentativeRun": true,
+    "htmlPath": "/home/runner/work/devops-lab1-portfolio/devops-lab1-portfolio/.lighthouseci/localhost-index_html-2026_09_10_09_44_07.report.html",
+    "jsonPath": "/home/runner/work/devops-lab1-portfolio/devops-lab1-portfolio/.lighthouseci/localhost-index_html-2026_09_10_09_44_07.report.json",
+    "summary": {
+      "performance": 0.75,
+      "accessibility": 0.91,
+      "best-practices": 0.96,
+      "seo": 0.91
+    }
+  }
+]
