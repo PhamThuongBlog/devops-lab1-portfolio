@@ -34,7 +34,15 @@ jobs:
             exit 1
           fi
 
-      # Step 3: Deploy lên GitHub Pages
+      # Phần mở rộng 3
+      # Step 3 mở rộng: Chạy Lighthouse CI Audit
+      - name: Audit Performance & Accessibility với Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          configPath: './.lighthouserc.json'
+          uploadTargets: 'temporary-public-storage'
+          
+      # Step 4: Deploy lên GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
