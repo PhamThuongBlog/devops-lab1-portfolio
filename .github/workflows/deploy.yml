@@ -37,10 +37,10 @@ jobs:
       # Phần mở rộng 3
       # Step 3 mở rộng: Chạy Lighthouse CI Audit
       - name: Audit Performance & Accessibility với Lighthouse CI
-        uses: treosh/lighthouse-ci-action@v10
+        uses: treosh/lighthouse-ci-action@v12
         with:
           configPath: './.lighthouserc.json'
-          uploadTargets: 'temporary-public-storage'
+          temporaryPublicStorage: true
           
       # Step 4: Deploy lên GitHub Pages
       - name: Deploy to GitHub Pages
