@@ -10,6 +10,9 @@ on:
   push:
     branches: [main]       # Chạy khi push lên nhánh main
   workflow_dispatch:        # Cho phép chạy thủ công từ GitHub UI
+# --- THÊM ĐOẠN NÀY ĐỂ CẤP QUYỀN ĐẨY CODE LÊN GH-PAGES ---
+permissions:
+  contents: write
 
 # === Các job trong pipeline ===
 jobs:
